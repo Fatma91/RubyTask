@@ -1,0 +1,15 @@
+/home/fatma/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20150816-16114-1bdl2vu.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling locker.c
+compiling byebug.c
+compiling breakpoint.c
+compiling threads.c
+compiling context.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20150816-16114-1qx9nr2/byebug
